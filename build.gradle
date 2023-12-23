@@ -138,7 +138,7 @@ subprojects {
 
   /* CHECKSTYLE */
   checkstyle {
-    toolVersion = '8.29'
+    toolVersion = '8.38'
 
     // use google checks from the jar
     def googleChecks = resources.text.fromArchiveEntry(configurations.checkstyle[0], 'google_checks.xml').asString()
